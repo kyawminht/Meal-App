@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <header class="bg-white h-16 shadow flex justify-between items-center">
+  <div class="bg-white">
+    <header class=" sm:w-[1170px] mx-auto h-16 flex justify-between items-center">
       <div>
         <img src="../assets/logo/Foodlogo.svg" class=" w-[50px] h-[50px] rounded-full" alt="">
       </div>
