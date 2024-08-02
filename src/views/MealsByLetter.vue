@@ -1,10 +1,14 @@
 <template>
     <div class=" mt-5">
-        <div class=" flex gap-3 justify-center mt-2">
-            <router-link class=" hover:text-purple-300 transition-all text-2xl font-bold text-gray-900 hover:scale-150" :to="`/by-letter/${letter}`" v-for="letter in letters">
-            {{ letter }}
-            </router-link>
-        </div>
+      <div class="flex flex-wrap gap-1 sm:gap-3 justify-center mt-2">
+        <router-link 
+          class="hover:text-purple-300 transition-all text-lg sm:text-2xl font-bold text-gray-900 hover:scale-110 sm:hover:scale-150" 
+          :to="`/by-letter/${letter}`" 
+          v-for="letter in letters" 
+          :key="letter">
+          {{ letter }}
+        </router-link>
+      </div>
         <div class=" mt-5">
           <Meal :meals="meals"/>
         </div>

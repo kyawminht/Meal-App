@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 p-5 sm:p-0">
         <div v-for="meal in meals" :key="meal.idMeal" class="shadow-lg bg-white rounded-lg overflow-hidden">
           <router-link :to="`/meal/${meal.idMeal}`" class="block">
             <div class=" overflow-hidden">

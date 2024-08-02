@@ -8,19 +8,19 @@
       <div class="">
         <router-link
           :to="{ name: 'by-name' }"
-          class="inline-flex items-center px-2 transition-colors hover:bg-purple-100 text-2xl text-gray-900"
+          class="inline-flex items-center px-2 transition-colors hover:bg-purple-100 sm:text-2xl text-sm text-gray-900"
         >
           Search Meals
         </router-link>
         <router-link
           :to="{ name: 'by-letter' }"
-          class="inline-flex items-center px-2 transition-colors hover:bg-purple-100 text-2xl text-gray-900"
+          class="inline-flex items-center px-2 transition-colors hover:bg-purple-100 sm:text-2xl text-sm text-gray-900"
         >
           Meals By Letter
         </router-link>
         <router-link
           :to="{ name: 'ingredients' }"
-          class="inline-flex items-center px-2 transition-colors hover:bg-purple-100 text-2xl text-gray-900"
+          class="inline-flex items-center px-2 transition-colors hover:bg-purple-100 sm:text-2xl text-sm text-gray-900"
         >
           Meals By Ingredients
         </router-link>
